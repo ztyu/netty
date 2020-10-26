@@ -1,0 +1,8 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      file-size-threshold: 10MB #maxInMemorySize
+      location: C:\Users\Public\Pictures\Sample Pictures\  #使用${}取系统环境变量值
+    asset.virtual.path: /asset/**
